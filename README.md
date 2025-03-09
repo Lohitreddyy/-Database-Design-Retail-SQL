@@ -18,7 +18,6 @@ Venue_Description VARCHAR(100) NOT NULL
 CREATE TABLE Event (
 event_id INT PRIMARY KEY NOT NULL,
 event_name VARCHAR(50) NOT NULL,
-P a g e 11 | 25
 start_date DATE NOT NULL,
 end_date DATE NOT NULL,
 Event_Description VARCHAR(100) NOT NULL,
@@ -41,7 +40,6 @@ product_name VARCHAR(50) NOT NULL,
 wholesale_cost DECIMAL(10,2) NOT NULL,
 min_selling_price DECIMAL(10,2) NOT NULL,
 max_selling_price DECIMAL(10,2) NOT NULL
-P a g e 12 | 25
 );
 
 CREATE TABLE Salesperson (
